@@ -1,0 +1,88 @@
+#move-pages {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 10px solid orangered; */
+    /* height: 15rem; */
+    /* border: 10px solid greenyellow; */
+    position: relative;
+    justify-content: center;
+}
+
+#logo {
+    /* justify-content: center; */
+}
+
+#logo img {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    width: 10%;
+    /* height: 10%; */
+}
+
+#move ul{
+    display: flex;
+    /* position: absolute;
+    top: 40%;
+    left: 20%; */
+    margin-top: 0.5rem;
+    list-style-type: none;
+}
+
+#move ul li{
+    margin-left: 30px;
+}
+
+
+
+
+body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background: url("../../assets/images/bg33.jpg");
+}
+
+.heading{
+
+text-align: center;
+font-size: 3rem;
+color:black;
+
+}
+
+.box{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 99%;
+margin: 12px 0px;
+/* border: 2px solid red; */
+}
+.heading1{
+text-align: center;
+font-size: 3rem;
+color: white;
+margin-top: 82px;
+}
+
+.img{
+/* border: 3px solid red; */
+    margin: 8px;
+    padding: 6px;
+    background-color: pink;
+
+}
+.g1{
+width: 342px;
+height: 259px;
+/* float: left; */
+margin: 4px;
+border-radius: 12px;
+
+
+} 
+.g1:hover{
+background-color: white;
+transform: scale(1.3);
+box-shadow: -14px -14px 5px grey;
+}

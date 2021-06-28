@@ -1,0 +1,81 @@
+/* footer */
+
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+#foot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box1 {
+    width: 28%;
+    /* border: 40px solid green; */
+}
+.box2 {
+    width: 28%;
+    /* border: 40px solid green; */
+}
+.box3{
+    width: 32%;
+    /* border: 40px solid green; */
+}
+
+.box1 .imglogo{
+    height: 130px;
+    width: 60%;
+    /* justify-content: center; */
+    margin: auto;
+}
+
+.social-logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.social-logo{
+    width: 100%;
+}
+
+.social-logo img {
+    height: 40px;
+    width: 40px;
+    display: block;
+}
+
+.box2 img{
+    height: 100px;
+    width: 50%;
+}
+.box3 img{
+    height: 100px;
+    width: 50%;
+}
+
+ .box4 {
+    width: 100%;
+    padding-left: 2%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 1.4rem;
+    /* padding-left: 20%; */
+}
+
+/*
+
+.box4 p{
+    justify-content: center;
+} */
+
+.gmail {
+    font-size: 0.88rem;
+    margin: 0%;
+}
