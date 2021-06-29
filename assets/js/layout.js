@@ -2,28 +2,28 @@
 
 var links = document.querySelectorAll('.nav-menu a');
 
-for(var i = 0; i<links.length; i++){
-    links[i].addEventListener('click',function(event){
-        event.preventDefault();
-        var eventId = this.textContent.trim().toLowerCase();
+// for(var i = 0; i<links.length; i++){
+//     links[i].addEventListener('click',function(event){
+//         event.preventDefault();
+//         var eventId = this.textContent.trim().toLowerCase();
 
-        var pos = document.getElementById(eventId).offsetTop;
+//         var pos = document.getElementById(eventId).offsetTop;
 
-        var move = setInterval(scrollEvent,50);
+//         var move = setInterval(scrollEvent,50);
         
-        var currPos = 0;
-        function scrollEvent(){
+//         var currPos = 0;
+//         function scrollEvent(){
             
-            if(currPos >= pos){
-                clearInterval(move);
-                return;
-            }
-            currPos += 50;
-            scrollBy(0,50);
-        }
+//             if(currPos >= pos){
+//                 clearInterval(move);
+//                 return;
+//             }
+//             currPos += 50;
+//             scrollBy(0,50);
+//         }
 
-    })
-}
+//     })
+// }
 
 
 var sections = document.querySelectorAll('.each-skill div');
