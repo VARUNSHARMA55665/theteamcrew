@@ -160,9 +160,11 @@ body{
 }
 
 #gallery-list img{
-    height: 180px;
+    height: 300px;
     /* width: 32%; */
     margin-bottom: 2%;
+    /* margin-left: 3%;
+    margin-right: 3%; */
 }
 
 .margin-top {
