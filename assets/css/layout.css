@@ -5,7 +5,7 @@ body{
     /* background-color: #cadfd0; */
 }
 
-#navigation-bar{
+/* #navigation-bar{
     text-align: center;
     margin: 1.2rem !important;
 }
@@ -18,7 +18,7 @@ body{
 #navigation-bar p {
     padding: auto;
 }
-
+ */
 
 
 
@@ -26,7 +26,7 @@ body{
 
 /* Horizontal Lists */
 
-.horizontal-list {
+/* .horizontal-list {
     list-style: none;
     padding-left: 0px;
     margin: 0px;
@@ -56,7 +56,7 @@ body{
 
 .text-center {
     text-align: center;
-}
+} */
 
 
 
